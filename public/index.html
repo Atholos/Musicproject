@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <link rel="stylesheet" type="text/css" href="CSS/main.css">
+</head>
+
+<body id="formHere">
+
+<div class="header">
+
+    <form>
+        <a href="#page1"><img src="CSS/images/home-button.png" id="homebutton" alt="homebutton"></a>
+        <button id="SignUp" class="openform-button" onclick="openRegisterForm();window.location.href ='#page1'">Sign
+            up
+        </button>
+        <button id="login" class="openform-button" onclick="openLoginForm();window.location.href ='#page2'">Login
+        </button>
+        <button id="logOut" class="openform-button" onclick="logOutt()">Logout</button>
+        <a href="#page2"><img src="CSS/images/uploadbutton.png" id="uploadbutton" alt="uploadbutton"></a>
+        <a href="#page3"><img src="CSS/images/profile_pic.png" id="profilebutton" alt="profilebutton"></a>
+
+        <h4 id="logo">Music Group 1</h4>
+        <p id="username-here" style="display: none">username-here</p>
+
+
+    </form>
+
+</div>
+
+<div class="main">
+    <!--SIGNUP POPUP FORM-->
+    <div class="popup-form" id="register-form">
+        <form class="form-container" id="registration">
+            <h1>Register</h1>
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" id="username" name="username" required>
+
+            <label><b>Email</b></label>
+            <input type="email" placeholder="Enter Email" id="email" name="email" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" id="password" name="password" required>
+
+            <label><b>Confirm password</b></label>
+            <input type="password" placeholder="Enter Password" id="confpwd" required>
+
+            <button type="submit" class="container-button">Register</button>
+            <button type="button" class="container-button" id="cancelBtn" onclick="closeRegisterForm()">Close</button>
+        </form>
+    </div>
+
+    <!--POPUP LOGIN FORM-->
+    <div class="popup-form" id="login-form">
+        <form class="form-container">
+            <h1>Sign In</h1>
+            <label><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" id="login-name" name="username" required>
+
+            <label><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" id="login-password" name="password" required>
+
+            <button type="submit" class="container-button">Login</button>
+            <button type="button" class="container-button" id="cancelLoginBtn" onclick="closeLoginForm()">Close</button>
+        </form>
+    </div>
+
+    <div id="page2" class="page">
+        <!-- UPLOAD FILE CONTAINER-->
+        <div class="form-container" id="fcont" style="display: none">
+            <form id="mediaform">
+                <h1>Upload File</h1>
+                <label><b>Title</b></label>
+                <input type="text" placeholder="Title" name="Title" required>
+
+                <label><b>Description</b></label>
+                <input type="text" placeholder="Description" name="Description">
+                <br>
+                <label><b>Category:</b></label>
+                <select name="Category" id="cat">
+                    <option value="1">Guitar</option>
+                    <option value="2">Drums</option>
+                    <option value="3">Tabs</option>
+                    <option value="4">Chords</option>
+                </select>
+                <br>
+                <br>
+                <input type="file" name="my-image" accept="image/*">
+                <button type="submit">Upload</button>
+            </form>
+
+        </div>
+    </div>
+
+<!-- Profile update page, not implemented -->
+    <div id="page3" class="page">
+        
+            <div class="profile-container" id="profilecontainer" style="display: block">
+
+                <h1>Profile Information</h1>
+		
+                <p>Change profile picture</p>
+
+                <br>
+                <form id="profileform" action="/profpic" method="post" enctype="multipart/form-data">
+                <input type="file" name="my-profilepic" accept="image/*">
+                <button type="submit" id="profileupload">Upload</button>
+		</form>
+
+                <p>If you wish to change your profile information, please insert into fields and submit. (Not working, don't use)</p>
+
+                <form id="profile" novalidate>
+                    <label for="username">User name</label><br>
+                    <input type="text" name="changeuser" id="changeuser" tabindex="1" required><br>
+                    <label for="email">Email Address</label><br>
+                    <input type="email" name="changemail" id="changemail" tabindex="2" required><br>
+                    <label for="password">Password</label><br>
+                    <input type="password" name="changepass" id="changepass" tabindex="3" required><br>
+
+                    <input type="submit" name="profilesubmit" id="profilesubmit" tabindex="4"><br>
+
+
+                </form>
+            </div>
+        
+    </div>
+
+
+    <div id="page1" class="page default">
+        <!-- CATEGORIES NAVIGATIONBAR-->
+        <h1 class="category-heading">Categories</h1>
+        <nav class="row">
+            <div id="categories">
+
+            </div>
+            <div>
+                <button id="reset-button">Reset</button>
+            </div>
+        </nav>
+        <!--CATEGORIES CONTENT-->
+        <main>
+            <div id="content">
+                <ul>
+
+                </ul>
+            </div>
+        </main>
+    </div>
+
+
+</div>
+
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+<!--MODAL PICTURE-->
+<div class="modal hidden">
+    <button>&times;</button>
+    <figure>
+        <img src="" alt="">
+    </figure>
+</div>
+
+
+</div>
+</body>
+<script src="modules/moment/moment.js"></script>
+<script src="JS/main.js"></script>
+
+
+</html>

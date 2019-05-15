@@ -9,7 +9,9 @@ Arttu Jokinen, Joachim Grotenfelt, Markus Saronsalo
 This Project is currently running and can be accessed from [10.114.32.39/app/](http://10.114.32.39/app/).
 **NOTE**: App can be only accessed from Metropolia UACs intranet! You'll either have to be on site or use a vpn to connect to vpn.metropolia.fi. For this you need student/teacher credentials!
 
+**Built With**
 
+This app has been built using a Centos 7 server, Webstorm and phpmyadmin. Languages used were SQL, HTML, CSS, JavaScript.
 
 
 **How to Deploy.**

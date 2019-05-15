@@ -11,7 +11,7 @@ This Project is currently running and can be accessed from [10.114.32.39/app/](h
 
 **Built With**
 ```
-WebStorm - Coding (CSS,HTML, JS)
+Jetbrains WebStorm - Coding (CSS,HTML, JS)
 PhpMyAdmin - SQL Database
 ERD-Plus - Database ER model
 CentOS7 - Used for Apache webserver and Node

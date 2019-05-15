@@ -10,9 +10,11 @@ This Project is currently running and can be accessed from [10.114.32.39/app/](h
 **NOTE**: App can be only accessed from Metropolia UACs intranet! You'll either have to be on site or use a vpn to connect to vpn.metropolia.fi. For this you need student/teacher credentials!
 
 **Built With**
-
-This app has been built using a Centos 7 server, Webstorm and phpmyadmin. Languages used were SQL, HTML, CSS, JavaScript.
-
+```
+WebStorm - Coding (CSS,HTML, JS)
+PhpMyAdmin - SQL Database
+ERD-Plus - Database ER model
+```
 
 **How to Deploy.**
  1. Download this project to your machine

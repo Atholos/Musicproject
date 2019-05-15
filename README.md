@@ -1,5 +1,9 @@
 **Music Upload Project.**
 
+**Authors**
+	
+Arttu Jokinen, Joachim Grotenfelt, Markus Saronsalo
+
 This Project is currently running and can be accessed from [10.114.32.39/app/](http://10.114.32.39/app/).
 **NOTE**: App can be only accessed from Metropolia UACs intranet! You'll either have to be on site or use a vpn to connect to vpn.metropolia.fi. For this you need student/teacher credentials!
 

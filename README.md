@@ -26,6 +26,7 @@ App usage is straight forward.
 
 
 
+
 **How to Deploy.**
  1. Download this project to your machine
  2. with node run NPM intstall package.json. This will get you all of the required dependencies 

@@ -22,7 +22,7 @@ CentOS7 - Used for Apache webserver and Node
 App usage is straight forward. 
 1. You can view items without an user account
 2. To upload you must register and login 
-3. Images can be like after logging in
+3. Images can be like after logging in. Also you can delete your own images by logging in
 
 
 

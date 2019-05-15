@@ -17,6 +17,14 @@ ERD-Plus - Database ER model
 CentOS7 - Used for Apache webserver and Node
 ```
 
+**How To Use**
+App usage is straight forward. 
+1. You can view items without an user account
+2. To upload you must register and login 
+3. Images can be like after logging in
+
+
+
 **How to Deploy.**
  1. Download this project to your machine
  2. with node run NPM intstall package.json. This will get you all of the required dependencies 

@@ -18,6 +18,7 @@ CentOS7 - Used for Apache webserver and Node
 ```
 
 **How To Use**
+
 App usage is straight forward. 
 1. You can view items without an user account
 2. To upload you must register and login 

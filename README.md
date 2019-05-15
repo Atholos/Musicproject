@@ -1,5 +1,11 @@
 **Music Upload Project.**
 
+This Project is currently running and can be accessed from [10.114.32.39/app/](http://10.114.32.39/app/).
+**NOTE**: App can be only accessed from Metropolia UACs intranet! You'll either have to be on site or use a vpn to connect to vpn.metropolia.fi. For this you need student/teacher credentials!
+
+
+
+
 **How to Deploy.**
  1. Download this project to your machine
  2. with node run NPM intstall package.json. This will get you all of the required dependencies 
